@@ -1,3 +1,20 @@
-# missing-data-imputation-benchmark
-This project compares several missing data imputation methods (Mean, Median, kNN, MICE, MissForest, GAIN) using the NHANES dataset. 
-The impact of each method is evaluated through classification models (KNN, Logistic Regression, Random Forest) using F1-score, AUC and PR-AUC.
+#Missing Data Imputation Benchmark
+This project compares several missing data imputation methods on the NHANES biomedical dataset.
+
+Imputation methods:
+- Mean
+- Median
+- kNN
+- MICE
+- MissForest
+- GAIN
+
+Their impact is evaluated using classification models:
+- k-Nearest Neighbors
+- Logistic Regression
+- Random Forest
+
+Performance is measured with:
+- F1-score
+- ROC AUC
+- PR AUC
