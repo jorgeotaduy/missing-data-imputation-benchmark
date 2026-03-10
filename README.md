@@ -134,7 +134,7 @@ missing-data-imputation-benchmark/
 │
 ├── requirements.txt
 ├── README.md
-└── tfg_paper.pdf                                   # Full thesis document
+└── paper.pdf                                   # Full thesis document
 ```
 
 ---
@@ -170,10 +170,10 @@ pip install -r requirements.txt
 Run the notebooks in the following order:
 
 1. `src/download_nhanes_dataset.R` — download and export raw dataset
-2. `Limpieza_inicial_dataset_NHANES.ipynb` — clean and preprocess
-3. `Generador_Datasets_FaltantesSimulados.ipynb` — simulate missing data
-4. `Experimento.ipynb` — run all imputation + model combinations
-5. `Visualizar_y_analizar_resultados.ipynb` — generate plots and tables
+2. `01_Limpieza_inicial_dataset_NHANES.ipynb` — clean and preprocess
+3. `02_Generador_Datasets_FaltantesSimulados.ipynb` — simulate missing data
+4. `03_Experimento.ipynb` — run all imputation + model combinations
+5. `04_Visualizar_y_analizar_resultados.ipynb` — generate plots and tables
 
 All random seeds are fixed (`random_state=42`) for full reproducibility.
 
