@@ -1,8 +1,11 @@
-Missing Data Imputation Benchmark
+# Missing Data Imputation Benchmark
 
-This project compares several missing data imputation methods on the NHANES biomedical dataset.
+## Project Overview
 
-Imputation methods:
+This project compares several missing data imputation methods using the NHANES dataset.
+
+## Methods
+
 - Mean
 - Median
 - kNN
@@ -10,12 +13,14 @@ Imputation methods:
 - MissForest
 - GAIN
 
-Their impact is evaluated using classification models:
-- k-Nearest Neighbors
+## Models
+
+- KNN
 - Logistic Regression
 - Random Forest
 
-Performance is measured with:
-- F1-score
-- ROC AUC
-- PR AUC
+## Results
+
+## Dataset
+
+## Technologies
