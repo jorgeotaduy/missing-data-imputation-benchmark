@@ -130,7 +130,7 @@ missing-data-imputation-benchmark/
 ├── data/                                           # Processed datasets (.parquet)
 │
 ├── results/
-│   └── figures/                                    # Heatmaps, radar plots, boxplots, etc.
+│   └── figures/                                    # Plots used in the analysis
 │
 ├── requirements.txt
 ├── README.md
@@ -173,7 +173,7 @@ Run the notebooks in the following order:
 2. `Limpieza_inicial_dataset_NHANES.ipynb` — clean and preprocess
 3. `Generador_Datasets_FaltantesSimulados.ipynb` — simulate missing data
 4. `Experimento.ipynb` — run all imputation + model combinations
-5. `Resultados_Visualizar_y_Analizar.ipynb` — generate plots and tables
+5. `Visualizar_y_analizar_resultados.ipynb` — generate plots and tables
 
 All random seeds are fixed (`random_state=42`) for full reproducibility.
 
