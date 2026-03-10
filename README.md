@@ -116,7 +116,7 @@ missing-data-imputation-benchmark/
 ├── data/                                           # Processed datasets (.parquet)
 │
 ├── results/
-│   └── figures/                                    # Heatmaps, radar plots, boxplots, etc.
+│   └── figures/                                    # Plots used in the analysis
 │
 ├── requirements.txt
 ├── README.md
