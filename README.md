@@ -87,7 +87,7 @@ All experiments use stratified 80/20 train-test splits and 5-fold stratified cro
 
 ### F1-score evolution by mechanism and missingness rate
 
-![F1 evolution by mechanism](results/figures/f1_evolution.png)
+![F1 evolution by mechanism](results/figures/missingness_evolution.png)
 
 > **MCAR** degrades consistently as missingness increases. **MAR** remains stable even at 30%. **MNAR** trends upward — counterintuitively — due to the structured and predictable nature of the simulated extreme values.
 
