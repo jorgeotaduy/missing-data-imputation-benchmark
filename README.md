@@ -12,7 +12,6 @@ Missing data is a pervasive problem in real-world biomedical research. The choic
 This project benchmarks **6 imputation methods** combined with **3 classification models**, evaluated across **3 missing data mechanisms** (MCAR, MAR, MNAR) at **3 missingness levels** (10%, 20%, 30%), with and without class balancing via SMOTE. The result is a structured comparison of **360 unique imputation–model combinations**.
 
 The target task is binary classification of **diabetes diagnosis** using the NHANES dataset.
-Hola nuevo commit y push.
 
 ---
 
